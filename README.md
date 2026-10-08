@@ -27,7 +27,7 @@ Total points: 110/110
 执行：
 
 ```shell
-sudo apt-get update
+seudo apt-get updat
 sudo apt-get install -y gcc make gcc-multilib libc6-dev-i386 python3
 ```
 

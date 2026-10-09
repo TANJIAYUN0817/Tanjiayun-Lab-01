@@ -369,7 +369,7 @@ int classifyAdd3(int x, int y, int z) {
   int final_p=(p1&~n2)|(p2&~n1);
   int final_n=(n1&~p2)|(n2&~p1);
   int q=!!final_p;
-  return q|(final_n+q);
+  return q|(final_n);
 }
 
 // P15
